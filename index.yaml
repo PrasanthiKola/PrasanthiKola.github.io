@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  pages:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-05-27T10:42:11.017931405+01:00"
+    dependencies:
+    - name: pages-api
+      repository: http://localhost:8080
+      version: 1.x.x
+    - name: mysql
+      repository: http://localhost:8080
+      version: 1.x.x
+    description: A Helm chart for Pages Application
+    digest: 141173766a0818825313da4a631d2f9215c0f216326af40f1a4d32855e70d05f
+    name: pages
+    type: application
+    urls:
+    - pages-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-05-27T10:42:11.01625574+01:00"
